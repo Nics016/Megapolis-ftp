@@ -1,0 +1,133 @@
+.table-container{
+	display: block;
+	float: left;
+	width: 860px;
+	padding-left: 50px;
+}	
+
+.table-title{
+	display: block;
+	text-transform: uppercase;
+	font-family: NarrowSansBold;
+	font-size: 32px;
+	color: #566473;
+}
+
+.table-text{
+	display: block;
+	margin-top: 50px;
+	font-size: 18px;
+	color: #686868;
+}
+
+.table-text-elements{
+	border-collapse: collapse;
+}
+
+.table-text-elements tr{
+	border: 1px solid #BBB;
+}
+
+.table-text-elements th:last-child {
+	margin-right: 0;
+	width: 110px;
+}
+
+.table-text-elements th{
+	font-family: NarrowSansBold;
+    text-align: center;
+    padding: 10px 20px;
+    border: 1px solid black;
+}
+
+
+.table-text-elements td{
+    font-size: 16px;
+    text-align: center;
+    border: 1px solid black;
+    padding: 10px 20px;
+}
+
+.table-text-elements-pic{
+    display: block;
+    width: 90px;
+}
+
+.table-text-elements-input{
+	border: 1px solid #AAA;
+	width: 50px;
+	padding-left: 10px;
+	font-size: 16px;
+	color: #686868;
+}
+
+.table-text-elements-cart:hover{
+	background-color: #EF7F7F;
+}
+
+.table-text-elements-cart{
+	background-color: #E13F3F;
+	padding: 5px 18px;
+	color: #fff;
+	border-radius: 5px;
+	font-size: 18px;
+	text-decoration: none;
+	transition: background-color .3s ease-in;
+}
+
+/*.table-text-elements-num::-webkit-outer-spin-button,
+.table-text-elements-num::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}*/
+
+.table-text-elements-num::-webkit-outer-spin-button{
+	width: 10px;
+	height: 10px;
+}
+
+.table-text-elements-num{
+	width: 50px;
+	padding: 5px;
+}
+
+.table-tabs{
+	display: block;
+}
+
+.table-tabs-element:hover{
+	background-color: #888;
+}
+
+.table-tabs-element{
+	display: block;
+	float: left;
+	height: 30px;
+	color: #fff;
+	font-size: 18px;
+	text-decoration: none;
+	background-color: #686868;
+	border: 2px solid #686868;
+	margin-right: 1px;
+	cursor: pointer;
+	padding: 0 10px;
+	transition: background-color .3s ease-in;
+}
+
+.table-hidden{
+	display: none;
+}
+
+.table-element-picked{
+	border: 2px solid #E13F3F;
+}
+
+#add-cart-modal{
+	display: none;
+	left: calc((100vw - 128px)/2);
+	width: 128px;
+	height: 128px;
+	position: absolute;
+	z-index: 100;
+	background: url('../img/add_basket.png') no-repeat;
+	background-size: cover;
+}

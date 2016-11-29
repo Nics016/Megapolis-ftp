@@ -1,0 +1,209 @@
+/* LEFT-NAV */
+#left-sideb{
+	display: block;
+	float: left;
+	width: 260px;
+}
+
+.left-nav{
+	display: block;
+	float: left;
+	width: 260px;
+}
+
+.menu-menu-in-left-sidebar-container
+{
+}
+
+#menu-left-menu{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+#menu-left-menu li:hover{
+	background-color: #E6E6E6;
+}
+
+.menu-item-has-children{
+	background-image: url("../img/menu-arrow.png");
+	background-repeat: no-repeat;
+	background-size: 24px 24px;
+	background-position: 230px 14px;
+} 
+
+#menu-left-menu li{
+	margin: 0;
+	margin-bottom: 1px;
+	background-color: #D7D7D7;
+	border-bottom: 1px solid #919191;
+	border-radius: 5px;
+	width: 260px;
+	line-height: 51px; /*! to make vertical align of li a working*/
+	cursor: pointer;
+/*	background-image: url("../img/menu_1.png");
+	background-repeat: no-repeat;
+	background-size: contain;*/
+}
+
+#menu-left-menu li a{
+	display: block;
+	padding-left: 10px;
+	overflow: hidden;
+	text-decoration: none;
+	font-size: 16px;
+	vertical-align: middle; /* ! */
+	color: #000;
+}
+
+#menu-left-menu li ul{
+	position: absolute;
+	margin: -50px 0 0 256px;
+	padding: 0;
+	padding-left: 10px;
+	display: none;
+	list-style-type: none;
+	z-index: 10;
+}
+
+#menu-left-menu li:hover ul {
+	display: block;
+}
+
+/* NEWSBAR */
+.newsbar{
+	display: block;
+	margin-top: 30px;
+}
+
+.newsbar-title{
+	display: block;
+	color: #767676;
+	font-size: 28px;
+	margin-left: 50px;
+}
+
+.newsbar-article{
+	display: block;
+	margin-top: 30px;
+	text-decoration: none;
+}
+
+.newsbar a:hover .newsbar-article-text {
+	color: #F41C1C;
+}
+
+.newsbar-article-pic{
+	display: inline-block;
+	width: 260px;
+	height: 200px;
+}
+
+.newsbar-article-text{
+	display: block;
+	padding-top: 10px;
+	color: #273E7B;
+	font-size: 18px;
+}
+
+.newsbar-article-date{
+	display: block;
+	margin-top: 5px;
+	margin-left: 10px;
+	color: #767676;
+	font-size: 18px;
+}
+
+/* ARTICLESBAR */
+.articlesbar{
+	display: block;
+	margin-top: 30px;
+}
+
+.articlesbar-title{
+	display: block;
+	color: #767676;
+	font-size: 28px;
+	margin-left: 50px;
+}
+
+.articlesbar a:hover .articlesbar-article-title {
+	color: #F41C1C;
+}
+
+.articlesbar a:hover .articlesbar-article-text {
+	color: #565656;
+}
+
+.articlesbar-article{
+	display: block;
+	margin-top: 30px;
+	text-decoration: none;
+}
+
+.articlesbar-article-title{
+	display: block;
+	padding-top: 10px;
+	color: #273E7B;
+	font-size: 18px;
+}
+
+.articlesbar-article-text{
+	display: block;
+	padding-top: 10px;
+	color: #767676;
+	font-size: 16px;
+}
+
+.article_separator{
+	color: #fff;
+}
+
+/* SLIDER */
+.slider{
+	display: block;
+	float: left;
+	margin-left: 50px;
+	width: 700px;
+}
+
+.slider-pic:hover{
+	/*grayscale for background image*/
+  background-color: #AAA;
+  background-blend-mode: darken;
+}
+
+.slider-pic{
+	display: block;
+	width: 720px;
+	height: 400px;
+	background: url("../img/slider0.jpg") no-repeat;
+	background-size: cover;
+	border-radius: 10px;
+	transition: background-color .4s ease-in,
+				background-image 1s ease-out;
+}
+
+.slider-pic-text{
+	display: block;
+	padding: 50px 0 0 50px;
+	font-size: 64px;
+	color: #fff;
+	height: 300px;
+	width: 600px;
+}
+
+.slider-pic-balls{
+	display: block;
+	margin-left: 80px;
+}
+
+.slider-pic-balls i{
+	cursor: pointer;
+	color: #fff;
+	margin-left: 10px;
+}
+
+.slider-pic-balls i.active{
+	color: yellow;
+}

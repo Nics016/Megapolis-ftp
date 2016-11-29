@@ -1,0 +1,173 @@
+.cart-items{
+	display: block;
+	font-size: 18px;
+	margin-top: 30px;
+}
+
+#cart-items-table{
+	display: block;
+	border-collapse: collapse;
+}
+
+#cart-items-table th:last-child {
+	margin-right: 0;
+}
+
+#cart-items-table th{
+	font-family: NarrowSansBold;
+    text-align: center;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: 1px solid black;
+}
+
+#cart-items-table td:nth-child(2) {
+	padding-right: 70px;
+	font-style: NarrowRegularBold;
+}
+
+#cart-items-table td{
+    font-size: 16px;
+    text-align: center;
+    border: 1px solid black;
+    padding: 0px 20px;
+}
+
+.cart-items-table-num{
+	width: 50px;
+}
+
+.cart-items-table-pic{
+	display: block;
+	background: url("http://megapolis-mck.ru/wp-content/themes/megapolis/img/menu_1.png	") no-repeat;
+	height: 80px;
+	width: 90px;
+	background-size: contain;
+}
+
+
+.cart-items-table-delete{
+	text-decoration: none;
+	color: darkred;
+}
+
+.cart-orderinfo{
+	display: block;
+	margin-left: 490px;
+	margin-top: 20px;
+	font-size: 20px;
+	font-style: NarrowRegularBold;
+}
+
+.contactForm{
+	display: block;
+	border: 1px dashed #AAA;
+	margin-top: 50px;
+	padding: 20px;
+}
+
+.contactForm-title{
+	display: block;
+	font-size: 24px;
+	color: #686868;
+	font-style: NarrowRegularBold;
+}
+
+.contactForm-info{
+	display: block;
+	margin-top: 30px;
+}
+
+.contactForm-info-line{
+	display: block;
+	margin-top: 10px;
+	margin-left: 80px;
+}
+
+.contactForm-info-lab{
+	display: block;
+	float: left;
+	font-size: 18px;
+	width: 200px;
+}
+
+.contactForm-info-star{
+	color: red;
+	font-size: 22px;
+}
+
+.contactForm-info-error{
+	display: none;
+	color: red;
+	margin-left: 300px;
+	font-size: 18px;
+}
+
+.contactForm-info-error-show{
+	display: block;
+}
+
+.contactForm-info-field:focus{
+	background-color: #DDD;
+	outline:  none;
+}
+
+.contactForm-info-field{
+	display: block;
+	float: left;
+	background-color: #EAEAEA;
+	border: 1px solid #AAA;
+	border-radius: 5px;
+	padding: 10px;
+	letter-spacing: 1px;
+	font-size: 18px;
+	width: 400px;
+}
+
+.contactForm-info-field-redAlert{
+	background-color: #FBB;
+}
+
+.contactForm-info-makeorder:hover{
+	background-image: url("../img/submit_bg_hover.png");
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.contactForm-info-makeorder{
+	display: block;
+	margin-top: 50px;
+	margin-left: 550px;
+	width: 170px;
+	height: 60px;
+	background: url("../img/submit_bg.png") no-repeat;
+	background-size: cover;
+	border-radius: 5px;
+	font-size: 20px;
+	font-family: NarrowRegularBold;
+	font-weight: bolder;
+	outline: none;
+	color: #fff;
+	cursor: pointer;
+	transition: background-image .3s ease-in,
+							box-shadow .3s ease-in;
+}
+
+.checkout-title{
+	display: block;
+	font-size: 24px;
+	color: green;
+	margin-bottom: 30px;
+}
+
+.checkout-title-orderNumber{
+	color: #686868;
+	font-style: italic;
+}
+
+.checkout-thanks{
+	display: block;
+	margin-top: 30px;
+	margin-left: 100px;
+	font-size: 20px;
+	color: red;
+}
